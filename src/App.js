@@ -1,12 +1,15 @@
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
 import Tasklist from './Components/Tasklist';
-
 function App() {
   return (
-    <div className="App">
-      <h1>Todo App</h1>
-      <Tasklist/>
-    </div>
+    <BrowserRouter>
+    <div>
+        <Routes>
+          <Route path="/" element={<Tasklist />}/>
+        </Routes>
+      </div>
+    </BrowserRouter>
   );
 }
 
