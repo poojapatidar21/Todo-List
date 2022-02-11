@@ -113,12 +113,13 @@ function Tasklist() {
       </div>
       {list2.length > 0 &&
         <div className="completedlist"  >
-        
+        <div>
           {showcompleted &&
             <div className="completedlistelement">
               <h4>Completed task list</h4>
               {list2}
-            </div>}
+              </div>}
+            </div>
         </div>
       }
         
