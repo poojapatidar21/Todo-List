@@ -2,9 +2,9 @@
 Project link: (https://todoapp-pooja.herokuapp.com/)
 
 ## Tool & Framework
-*React.js
-*Firebase
-*Heroku
+* React.js
+* Firebase
+* Heroku
 
 
 ### `npm install`
