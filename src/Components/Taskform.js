@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Button, Form } from "react-bootstrap";
-import './style.css'
+import "./style.css";
 export default function Taskform(props) {
   const [task, settask] = useState("");
   const [showerror, setshowerror] = useState("");
@@ -16,7 +16,7 @@ export default function Taskform(props) {
   return (
     <div className="list">
       <h1>ToDo List App</h1>
-      <Form 
+      <Form
         onSubmit={(event) => {
           if (task.length < 5) {
             event.preventDefault();
@@ -29,7 +29,6 @@ export default function Taskform(props) {
         }}
       >
         <Form.Group>
-        
           <Form.Control
             type="text"
             placeholder="Enter New Todo"
@@ -37,12 +36,11 @@ export default function Taskform(props) {
             onChange={handleChange}
             className="inputField"
           />
-          <Button variant="primary" className="buttons">
-          Add Task
-        </Button>
+          <Button className="buttons" type="submit">
+            Add Task
+          </Button>
           <Form.Text className="error">{showerror}</Form.Text>
         </Form.Group>
-        
       </Form>
     </div>
   );

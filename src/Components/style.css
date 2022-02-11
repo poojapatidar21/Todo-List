@@ -107,7 +107,8 @@ body {
   height: 45px;
   line-height: 45px;
   margin-bottom: 8px;
-  background: linear-gradient(to right, #68eacc 0%, #497be8 100%);
+  background: linear-gradient(to right, #179477 20%, #49b4e6 80%);
+
   border-radius: 3px;
   padding: 0 15px;
   cursor: default;
@@ -127,7 +128,7 @@ body {
   height: 45px;
   line-height: 45px;
   margin-bottom: 8px;
-  background: linear-gradient(to right, #68eacc 0%, #497be8 100%);
+  background: linear-gradient(to right, #ccea68 20%, #49e879 80%);
   border-radius: 3px;
   padding: 0 15px;
   cursor: default;
